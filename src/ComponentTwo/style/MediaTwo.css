@@ -1,0 +1,25 @@
+@media(max-width:400px){
+    .container-cmp-two{
+        position: absolute;
+        width: 300px;
+        top:2250px;
+        height: 1401px;
+    }
+    .scroll-bar-container,.index-container,.list-words{
+        width: 400px;
+        height: 810px;
+    }
+    .img-background{
+        position: fixed;
+        width: 400px;
+        height: 410px;
+        margin-top: -10px;
+        background-color: darkslateblue;
+    }
+    .fast-string-words{
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width:4300px;        
+        justify-content:space-between;
+    }
+}

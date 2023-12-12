@@ -1,0 +1,101 @@
+/**MAP**/
+.box-map{
+    margin-left: 165px;
+    width: 390px;
+}
+.container-box-three{
+    position: absolute;
+    top:1260px;
+    display: flex;
+}
+.local,.phone,.convert{
+    display: flex;
+}
+.img-local,.img-phone,.img-convert{
+    width: 16px;
+    height: 16px;
+}
+.loc,.ph,.con{
+    margin-left: 11px;
+    margin-top: -0.6px;
+}
+.con:hover,.thisIs:hover,.tabbed:hover,.contenT:hover{
+    cursor: pointer;
+    color:rgb(29, 175, 29);
+    transition: 0.3s;
+}
+.title-map, .title-info-bloks{
+    color:rgb(68, 29, 29);
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-map{
+    line-height: 28px;
+}
+.text-map,.loc,.ph,.con{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+}
+
+/**INFO_BLOKS**/
+.bloks-titles{
+    display: flex;
+}
+.this-is-container{
+    position: relative;
+    margin-top: .17px;
+}
+.thisIs,.tabbed,.contenT{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+    padding:15px;
+    border-top: 1px solid rgb(181, 177, 177);
+    border-left: 1px solid rgb(181, 177, 177);
+    border-right: 1px solid rgb(181, 177, 177);
+}
+.box-info-bloks,.container-statistic{
+    width: 400px;
+    margin-left: 56px;
+}
+.p-text-three-1,.p-text-three-2,.p-text-three-3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    color:gray;
+    padding: 5px;
+    width: 390px;
+}
+
+/***STATISTIC***/
+.statistic-text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    color:gray;
+}
+.empty-diagramm-container,.green-line,.empty-diagramm-container-2,.green-line-2,
+.empty-diagramm-container-3,.green-line-3,.empty-diagramm-container-4,
+.green-line-4{
+    display:flow;
+    width: 363px;
+    height: 15px;
+    border:1px solid green;
+    border-radius: 5px;
+}
+.green-line,.green-line-2,.green-line-3,.green-line-4{
+    width: 333px;
+    background-color: green;
+    height: 14px;
+    margin-left: -1px;
+}
+.green-line-2{
+    width: 303px;
+}
+.green-line-3{
+    width: 323px;
+}
+.green-line-4{
+    width: 186px;
+}

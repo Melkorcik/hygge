@@ -1,0 +1,36 @@
+@media(max-width: 400px){
+    .box-cards{
+        width:400px;
+        display:block;
+        position: relative;
+    }
+    .id_1,.id_2,.id_3,.id_4{
+        position: absolute;
+        text-align: center;
+    }
+    .id_1{
+        left: -466px;
+    }
+    .id_2{
+        top:590px;
+        left: -766px;
+    }
+    .id_3{
+        top:1110px;
+        left: -1066px;
+    }
+    .id_4{
+        top:1630px;
+        left: -1366px;
+    }
+    .img-main{
+        height: 300px;
+        width: 250px;
+    }
+    .text-cmp-one{
+        margin:0 auto;
+    }
+    .icons-cmp-one{
+        margin-top: 16px;
+    }
+}

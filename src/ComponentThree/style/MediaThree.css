@@ -1,0 +1,45 @@
+@media(max-width:400px){
+    .container-box-three{
+        position: absolute;
+        top:2760px;
+        display: flex;
+        left:-173px;
+        width: 400px;
+    }
+    .box-info-bloks{
+        position: absolute;
+        top:750px;
+        display: flex;
+        left:109px;
+        width: 400px;
+    }
+    .title-info-bloks{
+        position: absolute;
+        top:-90px;
+        width: 400px;
+    }
+    .bloks-titles{
+        position: absolute;
+        top:-41px;
+        display: flex;
+        left:15px;
+        width: 400px;
+    }
+    .container-statistic{
+        position: absolute;
+        top:1250px;
+        display: flex;
+        left:113px;
+        width: 400px;
+    }
+    .title-info-bloks-2{
+        position: absolute;
+        top:-31px;
+        width: 400px;
+    }
+    .container-diagramm{
+        position: absolute;
+        top:105px;
+        width: 400px;
+    }
+}

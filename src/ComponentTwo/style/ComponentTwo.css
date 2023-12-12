@@ -1,0 +1,46 @@
+.container-cmp-two{
+    position: absolute;
+    top:800px;
+    height: 1401px;
+}
+.scroll-bar-container{
+    max-height: 401px;
+    overflow: hidden;
+    width: 1520px;
+    margin-left: -10px;
+    background-color: cadetblue;
+    position: relative;
+}
+.index-container{
+    position: absolute;
+    height: 401px;
+    width: 1520px;
+    top:0px;
+    z-index: 1;
+    opacity: 0.3;
+}
+.list-words{
+    height: 100px;
+    max-width: 1120px;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: 190px;
+    opacity: 1;
+}
+.img-background{
+    height: 1560px;
+    width: 100%;
+    margin-top:-500px;
+}
+.text-content-on-mirror{
+    font-size: 31px;
+    position: absolute;
+    top:190px;
+    
+}
+.fast-string-words{
+    font-size:29px; 
+    display:flex;
+    width:4300px; 
+    justify-content:space-between;
+}
