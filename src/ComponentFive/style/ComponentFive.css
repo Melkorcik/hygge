@@ -1,0 +1,161 @@
+.container-ten{
+    height: 700px;
+    width: 1522px;
+    background-image: url('../backgrounddd/inverse-bg.jpg');
+    position: absolute;
+    top:2202px;
+    left:-11px;
+}
+.mini-component-ten-one, .mini-component-ten-two{
+    display: flex;
+    margin: 0 auto;
+    width: 1160px;
+    border-bottom: 0.1px solid rgb(171, 167, 167);
+    justify-content: space-between;
+}
+.mini-component-ten-one{
+    height: 230px;
+}
+.mini-component-ten-two{
+    height: 300px;
+}
+.box-ten-one,.box-ten-two,.box-ten-three{
+    margin-top: 41px;
+    width: 396px;
+}
+.box-icons-ten,.box-input-ten{
+    display: flex;
+}
+.box-input-ten{
+    position: relative;
+}
+.box-icons-ten{
+    width:180px;
+}
+.email-text{
+    height: 33px;
+    width:213px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background: transparent; /*чтобы input был прозрачным**/
+    border: 1px solid rgb(171, 167, 167);
+    color:aliceblue;
+    padding-left: 15px; /**внутри input можно сделать отступ, чтобы текст печатался не с начала, а с отступом в несколько px*/
+}
+.btn-join{
+    width:65px;
+    border: 1px solid rgb(82, 185, 91);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(82, 185, 91);
+    font-weight: bold;
+    color:aliceblue;
+    margin-left: -6px;
+}
+.btn-join:hover{
+    cursor: pointer;
+    background-color: rgb(69, 144, 75);
+    transition-duration: 0.6s;
+}
+.title-ten-1, .title-ten-2, .title-ten-3{
+    color:aliceblue;
+}
+.text-ten-3, .text-ten-2, .text-ten-1{
+    color:rgb(184, 184, 184);
+}
+.text-ten-3{
+    margin-top: -7px;
+}
+.span-ten-1,.span-ten-3,.span-ten-4,.span-ten-6,.span-ten-8,.span-ten-12{
+    font-size: 12px;
+}
+.span-ten-2,.span-ten-9,.span-ten-11{
+    font-size: 25px;
+}
+.span-ten-5{
+    font-size: 14px;
+}
+.span-ten-10,.span-ten-13{
+    font-size: 16px;
+}
+.span-ten-1:hover,.span-ten-3:hover,.span-ten-4:hover,.span-ten-6:hover,.span-ten-8:hover,.span-ten-12:hover,.span-ten-7:hover,
+.span-ten-2:hover,.span-ten-9:hover,.span-ten-11:hover,.span-ten-5:hover,.span-ten-10:hover,.span-ten-13:hover{
+    cursor: pointer;
+    color: rgb(60, 174, 70);
+    transition-duration: 0.6s;
+}
+.icon-ten-one, .icon-ten-two, .icon-ten-three, .icon-ten-four, .icon-ten-five, .icon-ten-six{
+    width: 39px;
+    height: 35px;
+    border-radius: 29px;
+}
+.icon-ten-one:hover, .icon-ten-two:hover, .icon-ten-three:hover, .icon-ten-four:hover, .icon-ten-five:hover, .icon-ten-six:hover{
+    cursor: pointer;
+    /*filter:invert(1);*/
+    transition-duration: 0.6s;
+}
+.text-mini-div-1{
+    color:rgb(184, 184, 184);
+    width: 300px;
+}
+.mini-div-ten-1{
+    margin-top: 50px;
+}
+.mini-div-ten-2, .mini-div-ten-3, .mini-div-ten-4{
+    margin-top: 28px;
+}
+.title-mini-div-2{
+    color:aliceblue;
+}
+.text-mini-div-2, .text-mini-div-3{
+    color:rgb(184, 184, 184);
+    width: 300px;
+}
+.text-mini-div-2:hover, .text-mini-div-3:hover{
+    cursor: pointer;
+    color: rgb(60, 174, 70);
+    transition-duration: 0.6s;            
+}
+.box-oclock{
+    color:rgb(184, 184, 184);
+}
+.mini-div-line{ /*Почему-то не видно этого блока в виде линии*/
+    height: 11px;
+    width: 300px;
+    background-color: rgb(171, 167, 167);
+}
+.text-email-ten{
+    position: relative; 
+    margin-left: 16px;
+    padding-left: 6px;
+    font-size: 17px;
+    color: rgb(184, 184, 184);
+}
+.text-email-ten:hover,.li-ten:hover{
+    cursor: pointer;
+    color:rgb(60, 174, 70);
+    transition-duration: 0.6s;
+}
+.list-ten{
+    display: flex; 
+    width: 400px; 
+    justify-content: space-between;
+    margin-top: -56px; 
+    margin-left: 940px; 
+    color: rgb(184, 184, 184);
+}
+.list-ten-one:hover, .list-ten-two:hover, .list-ten-three:hover, .list-ten-four:hover, .list-ten-six:hover{
+    cursor: pointer;
+    color:rgb(60, 174, 70);
+    transition-duration: 0.6s;
+}
+.div-info-te-S{
+    line-height: 12px; 
+    border-bottom: 1px solid rgb(171, 167, 167); 
+    padding-bottom: 20px;
+}
+.Year-2015{
+    color: rgb(184, 184, 184); 
+    margin-top: 73px;
+    margin-left: 180px;
+}

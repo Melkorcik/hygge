@@ -1,3 +1,5 @@
+import '../style/MediaThree.css';
+
 interface ITags{
     tag_start:any,
     tag_one: any,

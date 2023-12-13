@@ -1,0 +1,31 @@
+.container-go{
+    max-width: 440px;
+    overflow: hidden;
+}
+.container-main-four{
+    position:absolute; 
+    top:1900px; 
+    left:30px;
+    width:1440px;
+    text-align:center;
+    border-top:1px solid grey;
+}
+.content-div-four{
+    width:200px; 
+    margin-inline:auto;
+}
+.content-title-four{
+    color:rgb(68, 29, 29);
+}
+.content-text-four{
+    color:grey;
+    font-family:Arial;
+}
+.container-go{
+    margin-inline:auto; 
+    margin-top:36px;
+}
+.logo-companies{
+    width: 166px;
+    height: 166px;
+}

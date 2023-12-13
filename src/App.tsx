@@ -4,6 +4,8 @@ const Header = React.lazy(()=>import('./Header/Header'));
 const ComponentOne = React.lazy(()=>import('./ComponentOne/ComponentOne'));
 const ComponentTwo = React.lazy(()=>import('./ComponentTwo/ComponentTwo'));
 const ComponentThree = React.lazy(()=>import('./ComponentThree/ComponentThree'));
+const ComponentFourMain = React.lazy(()=>import('./ComponentFour/ComponetFourMain'));
+const ComponentFive = React.lazy(()=>import('./ComponentFive/ComponentFive'));
 function App() {  
   return (
     <div onWheel={e=> localStorage.setItem("coordY", e.deltaY.toString())} style={{position:'relative'}} className="App">
@@ -11,6 +13,8 @@ function App() {
         <ComponentOne/>
         <ComponentTwo/>
         <ComponentThree/>
+        <ComponentFourMain/>
+        <ComponentFive/>
     </div>
   );
 }

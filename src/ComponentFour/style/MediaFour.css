@@ -1,0 +1,17 @@
+@media(max-width: 400px){
+    .container-main-four{
+        width:390px;
+        position:absolute; 
+        top:4600px; 
+        left:-4px;
+        text-align:center;
+        border-top:1px solid grey;
+    }    
+    .container-go{
+        width:360px;
+    }
+    .logo-companies{
+        width: 101px;
+        height: 101px;
+    }
+}
